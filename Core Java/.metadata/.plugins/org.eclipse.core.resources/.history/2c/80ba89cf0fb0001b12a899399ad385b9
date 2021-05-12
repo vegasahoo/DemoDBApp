@@ -1,0 +1,21 @@
+package test;
+
+public class Try1 {
+	
+	
+	int a = 10;
+	int b = 20;
+	
+	
+	public int add(int a , int b) {
+		return a+b;
+	}
+	
+	public static void main(String[] args) {
+		System.out.println("Hello World");
+		Try1 t = new Try1();
+		System.out.println(t.add(10, 20));
+		
+	}
+
+}
